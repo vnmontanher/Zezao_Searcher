@@ -1,0 +1,44 @@
+.menu{
+	padding: 5px;
+}	
+.nav-menu{
+	background-color: #607B8B;
+	padding: 20px;
+}	
+.nav-menu a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+.nav-menu a:hover{
+	color: initial;
+	background-color: #B9D3EE;
+	padding: 10px;
+	border-radius: 40px;	
+}
+.animais{
+	margin-top: 30px;
+}
+.perdido{
+	margin-top: 40px;
+}
+.texto{
+	margin-top: 80px;
+}
+.btn{
+	padding: 10px;
+	color: red;
+	border-color: #698B69;
+}
+.btn:hover{
+	color: white;
+	background-color: #607B8B;
+	border-radius: 10px;
+
+}
+footer{
+	padding: 15px;
+	background-color: #607B8B;
+	text-align: center;
+}

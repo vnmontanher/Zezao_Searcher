@@ -1,0 +1,39 @@
+.container{
+	padding: 70px;
+	
+}
+form > h4{
+	color:#607B8B;
+	font-weight: bold;
+	padding: 5px;
+	font: cursive;
+}
+.button{
+	background:#607B8B;
+}
+.button:hover{
+	background:#4A708B;
+}
+p{
+	font-size: 15px;
+	text-align: center;
+}
+
+.link{
+	color:#00688B;
+	text-decoration:none;
+}
+.link:hover{
+	color:#698B69;
+}
+
+
+
+
+
+
+
+
+
+
+

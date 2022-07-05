@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"
+	<meta name="viewport" content="width=devide-width, initial-scale=1.0">
+	<title>Mensagem</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<link rel="stylesheet" href="mensagem.css">
+	
+</head>	
+<body>
+
+	<div class="col-md-12 mx-auto col-lg-5">
+		<form class="col-sm-5 col-md-5 col-lg-12">
+			<h4 class="text-center">MENSAGEM</h4>
+			<div class="form-floating mb-3">
+				<input type="nome" class="form-control" id="inputnome" placeholder="Nome"/>
+				<label for="inputnome">Nome</label>
+			</div>
+			<div class="form-floating mb-3">
+				<input type="email" class="form-control" id="inputemail" placeholder="E-mail"/>
+				<label for="inputemail">E-mail</label>
+			</div>
+			<div class="mb-3">
+				<label for="tipoPessoa">Eu sou...</label>
+					<select class="form-control" id="selectEusou">
+						<option>Pessoa Física</option>
+						<option>Pessoa Jurídica</option>
+						<option>ONG</option>
+						<option>Acolhedor</option>
+						<option>Clinica/Hospital</option>
+					</select>
+				</label>
+			</div>	
+			<div class="form-floating mb-3">
+				<input type="mensagem" class="text-area" id="inputmensagem">
+					<span class="text">(Digite todos os detalhes do animal, se encontrou ou perdeu, local, data e horário)</span>
+				<label for="inputmensagem">Mensagem</label>
+			</div>
+			<div class="mb-3">
+				<label class="picture" for="picute_input" tabIndex="0">
+				<span class="picture_image">Anexe uma foto do PET</span>
+				</label>
+				<input type="file" accept="imagem/*" id="picture_input"/>
+				<button class="enviar btn btn-lg d-grid gap-2 col-7 mx-auto" type="submit">Enviar</button>
+			</div>
+			
+				<p class="cadastro mt-4">
+					Ainda não é cadastrado? <a class="link" href="cadastro.html">Clique aqui</a> para se cadastrar.
+				</p>
+				<p class="inicio mt-4">
+					Voltar a Tela Inicial <a class="link" href="index.html">Clique aqui</a> para voltar.
+				</p>
+		</form>
+		
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+</body>
+</html>

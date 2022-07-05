@@ -1,0 +1,30 @@
+body{
+	background:#F0FFF0;
+}
+.container{
+	padding: 50px;
+	text-align: center;
+}
+h1{
+	font-size: 25px;
+	color: #36648B;
+}
+.btn{
+	background-color:#4A708B;
+	color: white;
+}
+.btn:hover{
+	background-color:#4A708B;
+	color: white;
+}
+.link{
+	color:#00688B;
+	text-decoration:none;
+}
+.link:hover{
+	color:#698B69;
+}
+.flor img{
+	width: 20%;
+	
+}

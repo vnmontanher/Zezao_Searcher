@@ -1,0 +1,28 @@
+body{
+	background-color: #F8F8FF;
+}
+.voltar{
+	color: #8FBC8F;
+	border-color: #698B69;
+}
+.voltar:hover{
+	color: white;
+	background-color: #607B8B;
+	border-radius: 10px;
+}
+.cadastrar{
+	background-color: #8FBC8F;
+	color: white;
+}
+.cadastrar:hover{
+	color: white;
+	background-color: #607B8B;
+	border-radius: 10px;
+}	
+	
+footer{
+	padding: 15px;
+	background-color: #607B8B;
+	text-align: center;
+	
+}
